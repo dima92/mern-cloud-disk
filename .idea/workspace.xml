@@ -1,20 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c2aca6bd-d4f2-4823-bd37-2a1406c49ac0" name="Default Changelist" comment="add registration form">
-      <change afterPath="$PROJECT_DIR$/client/src/components/authorization/Login.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/middleware/auth.middleware.js" afterDir="false" />
+    <list default="true" id="c2aca6bd-d4f2-4823-bd37-2a1406c49ac0" name="Default Changelist" comment="add auth middleware and reg form">
+      <change afterPath="$PROJECT_DIR$/server/controllers/fileController.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/models/File.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/routes/file.routes.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/services/fileService.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client/src/actions/user.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/actions/user.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/components/App.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/App.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/components/navbar/Navbar.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/navbar/Navbar.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/components/navbar/navbar.css" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/navbar/navbar.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/components/navbar/navbar.less" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/navbar/navbar.less" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/components/registration/Registartion.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/authorization/Registration.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/components/registration/registration.css" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/authorization/authorization.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/components/registration/registration.less" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/authorization/authorization.less" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/reducers/userReducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/reducers/userReducer.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/middleware/cors.middleware.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/middleware/cors.middleware.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/config/default.json" beforeDir="false" afterPath="$PROJECT_DIR$/server/config/default.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/server/routes/auth.routes.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/routes/auth.routes.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -100,8 +95,8 @@
     <recent_temporary>
       <list>
         <item itemvalue="npm.dev" />
-        <item itemvalue="Node.js.index.js" />
         <item itemvalue="npm.start" />
+        <item itemvalue="Node.js.index.js" />
       </list>
     </recent_temporary>
   </component>
@@ -116,7 +111,7 @@
       <workItem from="1617138069166" duration="10172000" />
       <workItem from="1617157555147" duration="125000" />
       <workItem from="1617157711766" duration="465000" />
-      <workItem from="1617158262093" duration="2662000" />
+      <workItem from="1617158262093" duration="3348000" />
     </task>
     <task id="LOCAL-00001" summary="Создание БД и React приложения - Облачное хранилище">
       <created>1617139810675</created>
@@ -160,7 +155,14 @@
       <option name="project" value="LOCAL" />
       <updated>1617160149103</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="add auth middleware and reg form">
+      <created>1617160978303</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1617160978303</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -189,6 +191,7 @@
     <MESSAGE value="add authorization" />
     <MESSAGE value="add redux" />
     <MESSAGE value="add registration form" />
-    <option name="LAST_COMMIT_MESSAGE" value="add registration form" />
+    <MESSAGE value="add auth middleware and reg form" />
+    <option name="LAST_COMMIT_MESSAGE" value="add auth middleware and reg form" />
   </component>
 </project>

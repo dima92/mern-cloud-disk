@@ -1,5 +1,6 @@
 {
   "serverPort": 5000,
   "dbUrl": "mongodb+srv://developer41:4342781ad@cluster0.uu3xd.mongodb.net/cloud-disk?retryWrites=true&w=majority",
-  "secretKey": "mern-secket-key"
+  "secretKey": "mern-secket-key",
+  "filePath": "C:\\Users\\dima-\\Desktop\\mern-cloud-disk\\server\\files"
 }
